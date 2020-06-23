@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.profil-wrapper {
+  width: : 100%;
+  font-family: "Quicksand";
+  text-align: center;
+  background-color: #bddbee;
+  background-size: cover;
+}
+
+.konten img {
+  align: center;
+}
+
+.sambutan {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 26px;
+}
+
+.foto1 {
+  display: flex;
+  width: 100%
+}
+
+.tim1  {
+  flex: auto;
+  ;
+}
+
+.foto2 {
+  display: flex;
+  width: 100%;
+}
+
+.tim2 {
+  flex: auto;
+}
+
+.foto3 {
+  display: flex;
+  width: 100%;
+}
+
+.tim3 {
+  flex: auto;
+}
+
+.profil-wrapper p {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+/*EFEK TRANSISI*/
+.konten img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+/*EFEK HOVER PRESISI, JANGAN DIGABUNG*/
+#anim1:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#anim2:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#anim3:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#anim4:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#anim5:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
